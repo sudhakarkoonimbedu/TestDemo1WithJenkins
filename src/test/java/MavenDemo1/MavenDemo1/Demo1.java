@@ -8,7 +8,7 @@ public class Demo1
 	   @Test
 	   public void openGoogleApp()
 	   {
-		   System.setProperty("webdriver.chrome.driver", "C:\\Users\\mypc\\Desktop\\Selenium Softwares\\chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			
 			ChromeDriver driver = new ChromeDriver();
 			
